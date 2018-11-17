@@ -10,5 +10,5 @@ npm install
 ## Test the Installation:
 ```
 python generate_slides.py  #Type 'test_project' as the Path (and yes I know there is a Slide missing)
-./node_modules/.bin/reveal-md ./test_project/slides.md
+./node_modules/.bin/reveal-md ./test_project/slides.md # You can add '-w' to watch the directory
 ```
