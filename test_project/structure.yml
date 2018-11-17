@@ -2,8 +2,9 @@ title:
   - TITLE
   - Stuff under the Main Title
 agenda:
-  - empty
-  - Some other Slide
+  - 'CUSTOM ## This is some Custom Text'
+  - CUSTOM For this just type 'CUSTOM' at the beginning
+  - Some other Slide'
 endcard:
   - ENDING TITLE
   - Stuff under The Main Ending Title

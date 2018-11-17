@@ -3,7 +3,12 @@
 
 ---
 
-Note: Empty Slide!
+## This is some Custom Text
+
+---
+
+For this just type 'CUSTOM' at the beginning
+
 ---
 
 ## ENDING TITLE
