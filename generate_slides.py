@@ -1,5 +1,6 @@
 import SlideGenerator
 from subprocess import call
+import os
 
 if __name__ == '__main__':
     # If you specify you path here, it will be used every time without asking fist (useful for longer sessions)
@@ -13,4 +14,6 @@ if __name__ == '__main__':
     SG.read_template()
     SG.process_template()
     SG.write_slideshow()
-    call(['./node_modules/.bin/reveal-md', SG.slideshow_file_path])
+    path_to_reveal_md = os.path.join(os.getcwd(), 'node_modules/.bin/reveal-md')
+    print(path_to_reveal_md)
+    call([path_to_reveal_md, './slides.md'], cwd=project_path)
